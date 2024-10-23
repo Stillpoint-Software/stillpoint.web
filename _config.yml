@@ -1,0 +1,53 @@
+title: Stillpoint Software Inc.
+logo: /assets/brand-logo.svg
+description: Software at enterprise scale
+baseurl: ""
+url: https://stillpointsoftware.web.netlify.app
+hero:
+  hero__image: /assets/brand-logo.png
+  hero__title:
+  hero__description: 
+author:
+  name: 
+  bio: 
+  image: 
+  avatar: 
+contact:
+  description: Have any questions? Reach out to us from our contact form and we will get back to you shortly.
+collections:
+  reviews:
+    output: true
+include:
+  - _pages
+defaults:
+  - scope:
+      path: _pages
+    values:
+      permalink: /:basename:output_ext
+google-analytics: null
+author-social:
+  - link: https://instagram.com/stillpoint_software/
+    icon: ion-logo-instagram
+  - link: https://linkedin.com//company/stillpoint-software/
+    icon: ion-logo-linkedin
+social:
+  - icon: ion-logo-instagram
+    link: https://instagram.com/stillpoint_software/
+  - icon: ion-logo-linkedin
+    link: https://linkedin.com//company/stillpoint-software/
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll/tagging
+pagination:
+  enabled: true
+  per_page: 6   # Number of posts per page
+  permalink: "/story/page:num/"
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
