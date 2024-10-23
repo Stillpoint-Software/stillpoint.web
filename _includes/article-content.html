@@ -29,16 +29,17 @@
     </div>
 
     <h2 class="article__title">
-      <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+      {{post.title}}
+      <!-- <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> -->
     </h2>
 
     <p class="article__excerpt">
       {% if post.description %}{{ post.description }}{% else %}{{ post.content |
-      strip_html | truncate: 110 }}{% endif %}
+      strip_html | truncate: 200 }}{% endif %}
     </p>
 
     <div class="article__bottom">
-      <div class="article__author">
+      <!-- <div class="article__author">
         {% if site.author.avatar %}
         <a
           href="{{ site.baseurl }}/about/"
@@ -54,11 +55,12 @@
           >{{site.author.name}}</a
         >
       </div>
+      -->
 
-      <span class="article__minutes">
-        {% assign words = post.content | number_of_words %} {% if words < 360 %}
-        1 min read {% else %} {{ words | divided_by:180 }} min read {% endif %}
-      </span>
+     <!-- <span class="article__minutes">
+         {% assign words = post.content | number_of_words %} {% if words < 360 %}
+        1 min read {% else %} {{ words | divided_by:180 }} min read {% endif %} 
+      </span>-->
     </div>
   </div>
 </div>

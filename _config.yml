@@ -5,7 +5,7 @@ baseurl: ""
 url: https://stillpointsoftware.web.netlify.app
 imageurl: https://stillpointsoftware.netlify.app
 hero:
-  hero__image: /assets/brand-logo.png
+  hero__image:
   hero__title:
   hero__description: 
 author:
