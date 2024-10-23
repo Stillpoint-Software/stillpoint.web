@@ -42,14 +42,8 @@ collections:
             widget: "object"
             fields:
               - { label: "Description", name: "description", widget: "text", required: true }
-   
-          - label: "Site Description"
-            name: "sitedescription"
-            widget: "text"
-            fields:
-              - { label: "Description", name: "description", widget: "text", required: false }
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posta" 
+    label: "Post" 
     folder: "_posts" 
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents
@@ -61,43 +55,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss", }
       - { label: "Asset", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
-  - name: "pages"
-    label: "Pages"
-    editor:
-      preview: true
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "_pages/about.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
-          - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Header Image", name: "image", widget: "image", required: true }
-      - label: "Inspiration Page"
-        name: "inspiration"
-        file: "_pages/inspiration.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-          - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
-          - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
-          - { label: "Header Image", name: "image", widget: "image", required: true } 
-          - label: "Gallery"
-            name: "images"
-            widget: "list"
-            fields:
-              - { label: "Asset", name: "path", widget: "image" }
-              - { label: "Title", name: "text", widget: "string" }
-  - name: "review" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Review" 
-    folder: "_reviews" 
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents
-    slug: "{{order}}-{{slug}}"
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "review" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Review Author", name: "author", widget: "text", required: true }
-      - { label: "Order", name: "order", widget: "number", required: true }
+
+
+
  

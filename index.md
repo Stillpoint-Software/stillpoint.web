@@ -6,7 +6,7 @@ layout: default
    <div class="row" style="padding-top: 60px;" ></div>
     <div class="row" >
         <div class="col-4" style="padding-top: 20px;">
-        <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section1.jpg" alt="Startup thinking at enterprise scale" />
+        <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}/assets/section1.jpg" alt="Startup thinking at enterprise scale" />
         </div>
         <div class="col-8" style="padding-top: 20px;">
             <h1 style="text-transform: uppercase;">Startup thinking at enterprise scale</h1>
@@ -24,13 +24,13 @@ layout: default
             <p>The pathway to relevance, and the ability to innovate, is to leverage the human communication networks within your organization. Free people to innovate while also driving measurable action through a communications first strategy.</p>            
         </div>
         <div class="col-4">
-          <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/sub-section-1.jpg" alt="Startup thinking at enterprise scale" />
+          <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}/assets/sub-section-1.jpg" alt="Startup thinking at enterprise scale" />
         </div>
     </div>
 <div class="row" style="padding-top: 60px;" ></div>
     <div class="row">
       <div class="col-4">
-        <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section-2.jpg" alt="Use Your Stuff" />
+        <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}/assets/sub-section-2.jpg" alt="Use Your Stuff" />
         </div>
         <div class="col-8">
             <h1 style="text-transform: uppercase;">Use Your Stuff</h1>
@@ -47,13 +47,13 @@ layout: default
             <p>We are experts at mapping the processes necessary to design, implement, and deploy successful initiatives that make your interactions more meaningful; from discovery and ideation, through turn-up, analytics, and operation.</p>          
         </div>
         <div class="col-4">
-          <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/sub-section-3.jpg" alt="Let's Make a Plan" />
+          <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}/assets/sub-section-3.jpg" alt="Let's Make a Plan" />
        </div>
     </div>
 <div class="row" style="padding-top: 60px;" ></div>
      <div class="row">
       <div class="col-4">
-        <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section-4.5.jpg" alt="Our Technology" />
+        <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}/assets/sub-section-4.jpg" alt="Our Technology" />
         </div>
         <div class="col-8">
             <h1 style="text-transform: uppercase;">Our Technology</h1>
