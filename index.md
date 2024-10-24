@@ -19,7 +19,7 @@ layout: default
 <div class="row" style="padding-top: 60px;" ></div>
     <div class="row">
         <div class="col-6">
-         <h1 style="text-transform: uppercase;text-align: center">Be Relevant - Act</h1>
+         <h1 style="text-transform: uppercase;text-align: center; font-size: 2rem;">Be Relevant - Act</h1>
             <p>Companies that can't keep up quickly fall out of touch. When your systems get in the way your best people will either find creative ways to circumvent them or they'll leave. This creates deep security and compliance concerns on the one hand while risking your best customers, employees, and partners on the other.</p>  
             <p>The pathway to relevance, and the ability to innovate, is to leverage the human communication networks within your organization. Free people to innovate while also driving measurable action through a communications first strategy.</p>            
         </div>

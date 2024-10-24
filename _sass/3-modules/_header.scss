@@ -13,7 +13,7 @@
   &.is-hide {
     top: -90px;
   }
-  border-bottom: 1px solid $blue-gray;
+   border: 1px solid rgba(0, 0, 0, .125);
 }
 
 .header__inner {

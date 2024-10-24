@@ -1,7 +1,8 @@
 /* Article */
 .article {
   flex-grow: 1;
-  margin-bottom: 20px;
+  // margin-bottom: 10px;
+
 
   &:hover {
     .article__title {
@@ -13,9 +14,16 @@
   }
 }
 
+.article_border {
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+}
+
 .article__title {
-  margin: 15px 0;
-  font-size: 26px;
+  margin: 10px 0;
+  font-size: 1.25rem;
   line-height: 34px;
   a {
     text-decoration: underline;
@@ -34,6 +42,7 @@
   padding-top: 75%;
   overflow: hidden;
   background-color: $gray;
+  justify-items: center;
 
   img {
     position: absolute;
@@ -46,7 +55,7 @@
 
 .article__content {
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .article__content_gallery {
