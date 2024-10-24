@@ -25,6 +25,7 @@ $text-color-alt: #757679;
 // Background color
 $background-color: #fff;
 $background-color-alt: #f0f0f0;
+$background-color-alt2: #dfdfdf;
 
 // Heading color
 $heading-font-color: $text-color;
@@ -38,10 +39,10 @@ $button-color: $dark;
 $button-background-color: $dark;
 
 $button-color-hover: $white;
-$button-background-hover: $dark;
+$button-background-hover: $brand-color;
 
 // Border color
-$border-color: #f0f0f0;
+$border-color: #dfdfdf;
 $hr-color: $border-color;
 
 // *****************

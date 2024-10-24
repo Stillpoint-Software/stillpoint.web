@@ -3,7 +3,8 @@
   position: relative;
   padding: 60px 0;
   margin-top: 60px;
-  background-color: $dark;
+  background-color: $background-color-alt2;
+  color: $dark;
 
   .footer__inner {
     display: flex;
@@ -20,9 +21,9 @@
 .copyright {
   font-size: 13px;
   text-align: center;
-  color: $white;
+  color: $dark;
   a {
-    color: $blue-gray;
+    color: $dark;
     &:hover {
       color: $brand-color;
     }
