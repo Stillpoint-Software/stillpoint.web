@@ -3,7 +3,6 @@ logo: /assets/brand-logo.png
 description: We are nerds when it comes to software. Our mission is to address the B2B2C communication gap, across all systems and devices, to reach more people more effectively, both inside and outside the enterprise.
 baseurl: ""
 url: https://stillpointsoftware.netlify.app
-imageurl: https://stillpointsoftware.netlify.app
 hero:
   hero__image:
   hero__title:
