@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scrum-As-A-Service
-date: 1024-10-23 04:50:00
+date: 2024-10-23 04:50:00
 image: /assets/card0.jpg
 tags: Scrum
 ---

@@ -1,0 +1,18 @@
+---
+layout: 
+---
+
+<div class="container">
+<div class="row">
+<div class="col-6" style="padding-top: 20px;">
+  <img class="lazy" data-src="//wsrv.nl/?url={{ site.imageurl | absolute_url }}{{ page.image }}" alt="{{ page.title }}" />
+</div>
+<div class="col-6" style="padding-top: 20px;">
+  <h1 style="text-transform: uppercase;text-align: center">{{ page.title }}</h1>
+  {% if page.subtitle %}
+  <h4 style="text-align: center">{{ page.subtitle }}</h4>
+  {% endif %}
+  {{content}}
+</div>
+</div>
+</div>
