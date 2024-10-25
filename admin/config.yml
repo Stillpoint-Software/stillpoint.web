@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Stillpoint-Software/stillpoint
+  repo: stillpoint-software/stillpoint
   branch: main 
 
 media_folder: "assets"
