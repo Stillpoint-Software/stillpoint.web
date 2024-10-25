@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-image: "/assets/UserEmail.png"
+image: "/assets/contactus1.jpg"
 navorder: 1
 ---
 {% include contact.html %}

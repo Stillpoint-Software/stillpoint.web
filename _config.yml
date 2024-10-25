@@ -27,13 +27,13 @@ defaults:
       permalink: /:basename:output_ext
 google-analytics: null
 author-social:
-  - link: https://instagram.com/stillpoint_software/
-    icon: ion-logo-instagram
+  - link: https://github.com/stillpoint-software/
+    icon: ion-logo-github
   - link: https://linkedin.com/company/stillpoint-software/
     icon: ion-logo-linkedin
 social:
-  - icon: ion-logo-instagram
-    link: https://instagram.com/stillpoint_software/
+  - icon: ion-logo-github
+    link: https://github.com/stillpoint-software/
   - icon: ion-logo-linkedin
     link: https://linkedin.com/company/stillpoint-software/
 markdown: kramdown
