@@ -42,7 +42,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 pagination:
-  enabled: true
+  enabled: false
   per_page: 6   # Number of posts per page
   permalink: "/page:num/"
 tag_page_dir: tag
